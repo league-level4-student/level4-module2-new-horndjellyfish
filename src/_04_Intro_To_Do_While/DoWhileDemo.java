@@ -41,7 +41,7 @@ public class DoWhileDemo {
 
         Random rand = new Random();
 
-        String again;
+        String again = null;
 
         while (again.equals("y")) {
             int flip = rand.nextInt(2);
